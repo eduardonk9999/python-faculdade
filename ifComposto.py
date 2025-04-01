@@ -24,4 +24,9 @@ if(idade >= 18):
     print("Mais instruções serão enviadas ao seu e-mail cadastrado na FIAP!")
 
 else:
-    print("Sua participação não foi autorizada por causa da sua idade{}!".format(idade))    
+    print("Sua participação não foi autorizada por causa da sua idade{}!".format(idade))
+    if autorizado == 'S':
+        print("Sua participação foi atutorizada, aluno de RM {}!".format(rm))
+        print("Mais informções serão enviadas para o email responsável!")
+    else:
+        print("Sua participacao não foi autorizada por causa da sua idade")
